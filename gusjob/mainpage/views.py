@@ -3,10 +3,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("<h4>Проверка работы</h4>")
+    return render(request, 'mainpage/index.html')
 
 def about(request):
-    return HttpResponse("<h4>Костя Гусельников, студент.</h4>")
+    return render(request, 'mainpage/about.html')
 
 def menu(request):
     return HttpResponse("<h4>Когда-то здесь появится меню</h4>")
