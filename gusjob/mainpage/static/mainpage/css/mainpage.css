@@ -1,0 +1,28 @@
+body {
+    background: #1A1125;
+}
+aside {
+    float: left;
+    background: #292138;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #544761;
+}
+main {color: white}
+aside ul {list-style: none}
+aside ul li {
+    color: white;
+    display: block;
+    margin-top: 10px;
+    transition: all .1s
+}
+aside ul li:hover, aside ul a:hover {
+    color: #785FDC;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+i {
+    margin-right: 15px;
+}
